@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0b4fc97-1f13-4234-a906-5c26609cebe0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/calculator/calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baitap/declare-use-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/baitap/declare-use-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyen-tien/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chuyen-tien/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,7 @@
       <workItem from="1599642243487" duration="2194000" />
       <workItem from="1599660844244" duration="659000" />
       <workItem from="1599664481956" duration="977000" />
-      <workItem from="1599665992374" duration="12518000" />
+      <workItem from="1599665992374" duration="12837000" />
     </task>
     <servers />
   </component>
