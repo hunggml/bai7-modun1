@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyen tien</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Chuyển đổi tiền tệ</legend>
+        <span>Amount</span>
+        <input type="text" id="nhap">
+        <span>	From Currency</span>
+        <select id="from">
+            <option value="23000">VND</option>
+            <option value="1">USD</option>
+            <option value="0.3">GBP</option>
+        </select>
+        <span>	To Currency</span>
+        <select id="to">
+            <option value="23000">VND</option>
+            <option value="1">USD</option>
+            <option value="0.3">GBP</option>
+        </select>
+        <span><button type="button" onclick="btn()" value="convert">Convert</button> </span>
+        <br>
+        <p id="out">RESULT:</p>
+    </fieldset>
+</form>
+<script>
+    function btn() {
+        let nhap = document.getElementById('nhap').value;
+        let from = document.getElementById('from').value;
+        let to = document.getElementById('to').value;
+        let tien = nhap*to/from;
+        document.getElementById('out').innerHTML = 'RESULT: ' + tien
+    }
+</script>
+
+</body>
+</html>
